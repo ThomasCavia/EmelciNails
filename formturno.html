@@ -34,17 +34,38 @@
     </nav>
     </header>
     <main>
-        <div class="container-box">
+        <div class="container-boxTurno">
             <!-- Texto Arma tu Turno -->
             <h2 class="tuTurno">✨Arma tu Turno✨</h2>
             <!-- Formulario de Armado de Turno/Dia -->
+            <form>
+                <fieldset class="box-dias">
+                    <p>Lunes</p><input type="radio" name="Dia" value="Lunes">
+                    <p>Martes</p><input type="radio" name="Dia" value="Martes">
+                    <p>Miercoles</p><input type="radio" name="Dia" value="Miercoles">
+                    <p>Jueves</p><input type="radio" name="Dia" value="Jueves">
+                    <p>Viernes</p><input type="radio" name="Dia" value="Viernes">
+                    <p>Sabado</p><input type="radio" name="Dia" value="Sabado">
+                </fieldset>
+                <fieldset class="box-horarios">
+                    <p></p><input type="radio" name="Horario" value="">
+                    <p></p><input type="radio" name="Horario" value="">
+                    <p></p><input type="radio" name="Horario" value="">
+                    <p></p><input type="radio" name="Horario" value="">
+                    <p></p><input type="radio" name="Horario" value="">
+                    <p></p><input type="radio" name="Horario" value="">
+                </fieldset>
+                <fieldset class="box-botonTurno">
+                    <input type="submit" name="Enviar Turno" value="Enviar Turno" class="boton-turno">
+                </fieldset>
+            </form>
         </div>    
     </main>
     <footer>
         <!-- Footer -->
         <div class="footer">
             <!-- Logo de Footer -->    
-            <a href="index.html"><i><img src="img/Logo.jpeg" alt=">EmelciNails Logo" class="footer-logo"></i></a>      
+            <a href="index.html"><i><img src="img/Logo.jpeg" alt="EmelciNails Logo" class="footer-logo"></i></a>      
             <!-- Mapa de Ubicacion -->
         <div class="map-container">
             <h4 class="titulo-map">Nos encontras en:</h4>    

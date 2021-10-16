@@ -141,7 +141,7 @@ body{
 .titulo-home{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 55px;
+   font-size: 60px;
    margin-left: 25%;
 }
 
@@ -240,7 +240,7 @@ body{
 .titulo-contacto{
    font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 40px;
+   font-size: 30px;
    margin-left: 320px;
 }
 
@@ -310,7 +310,7 @@ textarea{
 .titulo-diseños{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 40px;
+   font-size: 30px;
    margin-left: 300px;
 }
 
@@ -354,7 +354,7 @@ textarea{
 .titulo-precios{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 40px;
+   font-size: 30px;
    margin-left: 300px;
 }
 
@@ -428,11 +428,11 @@ textarea{
 .titulo-turnos{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 40px;
+   font-size: 30px;
    margin-left: 300px;
 }
 
-.boton-turno{
+.boton-armaTurno{
    background-color: white;
    margin-top: 50px;
    width: 150px;
@@ -446,7 +446,7 @@ textarea{
 	transition: 0.2s;
 }
 
-.boton-turno:hover{
+.boton-armaTurno:hover{
 	background-image: linear-gradient(to right , hotpink , white);
 	transform: scale(1.2);
 	border-radius: 12px;
@@ -512,13 +512,12 @@ textarea{
 .titulo-armadoTurno{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 40px;
+   font-size: 30px;
    margin-left: 300px;
 }
 
 .tuTurno{
 	background-color: white;
-   margin-top: 55px;
    margin-left: auto;
    margin-right: auto;
    width: 25%;
@@ -529,15 +528,16 @@ textarea{
    opacity: .85;
 }
 
-.container-box{
+.container-boxTurno{
 	display: flex;
-	height: 500px;
-   justify-content: space-between;  
+	margin-top: 70px;
+	height: 400px;
+   justify-content: space-around;  
 	flex-direction: column;
    align-items: center;
 }
 
-.box-dia{
+.box-dias{
 	display: flex;
 	height: 350px;
 	width: 500px;
@@ -547,6 +547,12 @@ textarea{
 	align-items: center;
 }
 
-.box-horarios{
-	border: none;
+.box-botonTurno{
+	display: flex;
+   justify-content: space-around;
+   border: none;
+}
+
+.boton-turno{
+   
 }
