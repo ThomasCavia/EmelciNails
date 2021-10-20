@@ -81,10 +81,30 @@ body{
 }
 
 @media (max-width:768px){
+   .Container{
+      display: flex;
+	   height: 100px;
+	   width: 100%;
+	   margin: auto;
+	   background-color: white;
+	   opacity: .85;
+	   justify-content: space-between;
+	   align-items: center;
+	   flex-direction: row;
+   }
+
+   .nav-logo{
+	   margin-left: 10px;
+	   width: 80px;
+   }
 
 }
 
 /*--------------------Footer------------------------*/
+
+@media (max-width:768px){
+
+}
 
 .footer{
 	display: flex;
@@ -151,6 +171,16 @@ body{
 }
 
 /*----------------Diseño Home----------------------*/
+
+@media (max-width:768px){
+   .titulo-home{
+	      font-family: 'Cedarville Cursive', cursive;
+         letter-spacing: 4px;
+         font-size: 30px;
+         margin-left: 27%;
+   }
+
+}
 
 .titulo-home{
 	font-family: 'Cedarville Cursive', cursive;
@@ -250,6 +280,12 @@ body{
 }
 
 /*----------------Diseño Contacto--------------------*/
+
+@media (max-width:768px){
+   .titulo-contacto{
+   	font-size: 30px;
+   }
+}
 
 .titulo-contacto{
    font-family: 'Cedarville Cursive', cursive;
@@ -366,6 +402,10 @@ textarea{
 }
 /*----------------Diseño Precios--------------------*/              
 
+@media (max-width:768px){
+
+}
+
 .titulo-precios{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
@@ -439,6 +479,10 @@ textarea{
 }
 
 /*----------------Diseño Turnos--------------------*/
+
+@media (max-width:768px){
+
+}
 
 .titulo-turnos{
 	font-family: 'Cedarville Cursive', cursive;
@@ -524,6 +568,10 @@ textarea{
 	height: 115px;
 }
 /*--------------Diseño Arma tu turno-------------*/
+
+@media (max-width:768px){
+
+}
 
 .titulo-armadoTurno{
 	font-family: 'Cedarville Cursive', cursive;
