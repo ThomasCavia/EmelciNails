@@ -37,27 +37,34 @@
         <div class="container-boxTurno">
             <!-- Texto Arma tu Turno -->
             <h2 class="tuTurno">✨Arma tu Turno✨</h2>
-            <!-- Formulario de Armado de Turno/Dia -->
+            <!-- Formulario de Armado de Turno -->
             <form>
-                <fieldset class="box-dias">
-                    <p>Lunes</p><input type="radio" name="Dia" value="Lunes">
-                    <p>Martes</p><input type="radio" name="Dia" value="Martes">
-                    <p>Miercoles</p><input type="radio" name="Dia" value="Miercoles">
-                    <p>Jueves</p><input type="radio" name="Dia" value="Jueves">
-                    <p>Viernes</p><input type="radio" name="Dia" value="Viernes">
-                    <p>Sabado</p><input type="radio" name="Dia" value="Sabado">
-                </fieldset>
-                <fieldset class="box-horarios">
-                    <p></p><input type="radio" name="Horario" value="">
-                    <p></p><input type="radio" name="Horario" value="">
-                    <p></p><input type="radio" name="Horario" value="">
-                    <p></p><input type="radio" name="Horario" value="">
-                    <p></p><input type="radio" name="Horario" value="">
-                    <p></p><input type="radio" name="Horario" value="">
-                </fieldset>
-                <fieldset class="box-botonTurno">
-                    <input type="submit" name="Enviar Turno" value="Enviar Turno" class="boton-turno">
-                </fieldset>
+                <div class="container-dias_horarios">
+                    <!-- Formulario de Armado de Turno/Dia -->
+                    <fieldset class="box-dias">
+                        <p id="dia">Lunes</p><input type="radio" name="Dia" value="Lunes">
+                        <p id="dia">Martes</p><input type="radio" name="Dia" value="Martes">
+                        <p id="dia">Miercoles</p><input type="radio" name="Dia" value="Miercoles">
+                        <p id="dia">Jueves</p><input type="radio" name="Dia" value="Jueves">
+                        <p id="dia">Viernes</p><input type="radio" name="Dia" value="Viernes">
+                        <p id="dia">Sabado</p><input type="radio" name="Dia" value="Sabado">
+                    </fieldset>
+                    <!-- Formulario de Armado de Turno/Horarios -->
+                    <fieldset class="box-horarios">
+                        <p id="horario">10am</p><input type="radio" name="Horario" value="10am">
+                        <p id="horario">11am</p><input type="radio" name="Horario" value="11am">
+                        <p id="horario">12am</p><input type="radio" name="Horario" value="12am">
+                        <p id="horario">13pm</p><input type="radio" name="Horario" value="13pm">
+                        <p id="horario">14pm</p><input type="radio" name="Horario" value="14pm">
+                        <p id="horario">15pm</p><input type="radio" name="Horario" value="15pm">
+                        <p id="horario">16pm</p><input type="radio" name="Horario" value="16pm">
+                    </fieldset>
+                </div>
+                <!-- Seccion con calendario indicando disponibilidad de Turnos -->
+                <!-- Boton de enviado de Turno -->
+                <div class="box-botonTurno">
+                    <input type="submit" name="Enviar Turno" value="Enviar Turno" class="boton-enviarTurno">
+                </div>
             </form>
         </div>    
     </main>
