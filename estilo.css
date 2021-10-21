@@ -50,6 +50,7 @@ body{
 .nav-main{
 	font-family: cursive;
 	font-size: 17px;
+
 }
 
 .nav-main ul{
@@ -72,12 +73,18 @@ body{
 	cursor: pointer;
 }
 
-.boton-menu{
+#boton-menu{
 	display: none;
 }
 
 .icono-menu{
 	display: none;
+	font-size: 25px;
+}
+
+.icono-menu:hover{
+	cursor: pointer;
+	opacity: 0.50;
 }
 
 @media (max-width:768px){
@@ -91,11 +98,40 @@ body{
 	   justify-content: space-between;
 	   align-items: center;
 	   flex-direction: row;
+	   margin-top: 5px;
    }
 
    .nav-logo{
-	   margin-left: 10px;
+   	display: block;
+	   margin-right: 40px;
 	   width: 80px;
+	   order: 3;
+   }
+
+   .icono-menu{
+   	display: block;
+   	color: pink;
+   	font-size: 25px;
+   	margin-left: 40px;
+   	
+   }
+
+   .nav-main{
+   	display: block;
+   	position: absolute;
+   	top: 105px;
+   	right: 100%;
+   	transition: 0.3s;
+   	order: 1;
+   }
+
+   .nav-main ul{
+   	flex-direction: column;
+   	background-color: pink;
+   }
+
+   #boton-menu:checked ~ .nav-main{
+   	right: 84%;
    }
 
 }
@@ -173,11 +209,60 @@ body{
 /*----------------Diseño Home----------------------*/
 
 @media (max-width:768px){
-   .titulo-home{
-	      font-family: 'Cedarville Cursive', cursive;
-         letter-spacing: 4px;
-         font-size: 30px;
-         margin-left: 27%;
+   #titulo-home{
+	   font-family: 'Cedarville Cursive', cursive;
+      letter-spacing: 4px;
+      font-size: 40px;
+      margin-right: 26%;
+   }
+
+   #container-infoHome{
+   	height: 1150px;
+   }
+
+   #titulo-bienvenida{
+   	font-size: 30px;
+   }
+
+   #img-container{
+      height: 305px;
+      width: 90%;
+      display: flex;
+	   justify-content: space-between;
+	   align-items: center;
+	   background-color: white;
+	   background-image: url(img/fondoimagen.jpg);
+	   background-size: cover;
+      border-radius: 10px;
+   }
+
+   #img-home{
+   	display: flex;
+   	height: 300px;
+	   width: 200px;
+	   border-radius: 5px;
+   }
+
+   #titulo-destacados{
+      font-size: 30px;
+   }
+
+   #container-imgDestacados{
+      display: flex;
+	   justify-content: space-around;
+	   align-items: center;
+	   background-color: beige;
+	   width: 80%;
+	   height: 150px;
+	   background-image: url(img/fondoimagen2.jpg);
+	   background-attachment: fixed;
+	   background-size: cover;
+	   border-radius: 7px;
+   }
+
+   #img-destacados{
+   	width: 110px;
+	   height: 120px;
    }
 
 }
@@ -200,7 +285,7 @@ body{
  	letter-spacing: 5px;
 }
 
-.container-imgContainer{
+.container-infoHome{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -273,24 +358,21 @@ body{
 .img-destacados{
 	width: 196px;
 	height: 200px;
-}
 
-#img-destacados{
-	border: solid hotpink;
 }
 
 /*----------------Diseño Contacto--------------------*/
 
 @media (max-width:768px){
-   .titulo-contacto{
-   	font-size: 30px;
+   #titulo-contacto{
+   	font-size: 40px;
    }
 }
 
 .titulo-contacto{
    font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 30px;
+   font-size: 55px;
    margin-left: 26%;
 }
 
@@ -361,7 +443,7 @@ textarea{
 .titulo-diseños{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 30px;
+   font-size: 55px;
    margin-left: 26%;
 }
 
@@ -409,7 +491,7 @@ textarea{
 .titulo-precios{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 30px;
+   font-size: 55px;
    margin-left: 27%;
 }
 
@@ -487,7 +569,7 @@ textarea{
 .titulo-turnos{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 30px;
+   font-size: 55px;
    margin-left: 27%;
 }
 
