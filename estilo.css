@@ -528,7 +528,9 @@ textarea{
 /*----------------Diseño Precios--------------------*/              
 
 @media (max-width:768px){
-
+   #titulo-precios{
+   	margin-right: 20%;
+   }
 }
 
 .titulo-precios{
