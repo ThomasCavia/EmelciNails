@@ -447,6 +447,42 @@ textarea{
 
 /*---------------Diseño Diseños---------------------*/
 
+@media (max-width:768px){
+	#titulo-diseños{
+		font-size: 40px;
+		margin-right: 10%;
+	}
+
+	#img-item{
+		height: 280px;
+		width: 210px;
+		
+	}
+
+   #img-diseño{
+   	width: 190px;
+   	height: 190px;
+   	margin-top: 8px;
+   	margin-left: 10px;
+   }
+
+   #desc-img{
+	   position: absolute;
+	   font-family: cursive;
+	   font-size: 16px;
+      left: 17px;
+	   top: 218px;
+   }
+
+   #container-diseños{
+   	width: 70%;
+   	grid-gap: 100px;
+      grid-auto-rows: 230px;
+      margin-left: 80px;
+   }
+
+}
+
 .titulo-diseños{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
