@@ -16,16 +16,16 @@
 </head>
 <body>
     <!-- Encabezado -->
-	<header  class="Container">			
+	<header  class="Container">	
+	<!-- Menu de Navegacion Responsive -->
+	<input type="checkbox" name="Menu responsive" id="boton-menu">
+	<label for="boton-menu" class="icono-menu"><i class="fas fa-bars"></i></label>		
 		<!-- Logo -->
 		<div class="nav-logo">		
 		    <a href="index.html"><i><img src="img/Logo.jpeg" alt=">EmelciNails Logo" class="nav-logo"></i></a>
 		</div>
 	<!-- Titulo de Pagina -->
-	<h1 class="titulo-contacto" id="titulo-contacto">Contacto</h1>
-	<!-- Menu de Navegacion Responsive -->
-	<input type="checkbox" name="Menu responsive" id="boton-menu">
-	<label for="boton-menu" class="icono-menu"><i class="fas fa-bars"></i></label>	
+	<h1 class="titulo-contacto" id="titulo-contacto">Contacto</h1>	
     <!-- Menu de Navegación -->   
 	<nav class="nav-main">
 		<ul class="nav-menu">
@@ -38,21 +38,21 @@
 	</header>
 	<main>
 		<!-- Texto de Consulta -->
-		<div class="container-boxConsulta">
-	    <h2 class="consulta">✨Tu consulta no molesta✨</h2>
+		<div class="container-boxConsulta" id="container-boxCosnulta">
+	    <h2 class="consulta" id="consulta">✨Tu consulta no molesta✨</h2>
 	    <!-- Formulario de Consulta -->
-             <form id="form">
-                <fieldset class="box-consulta">	
+            <fieldset class="box-consulta" id="box-consulta">
+                <form class="box-consulta" id="box-consulta"> 	
 	                <label>Nombre:</label>
-	                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="input-contacto">	                
+	                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="input-contacto" id="input-contacto">	            
 	                <label>Telefono:</label>
-	                <input type="text" name="telefono" placeholder="Ingresa tu Telefono" class="input-contacto">	                
+	                <input type="text" name="telefono" placeholder="Ingresa tu Telefono" class="input-contacto" id="input-contacto">	        
 	                <label>Email:</label>
-	                <input type="email" name="email" placeholder="Ingresa tu Email" class="input-contacto">	                
+	                <input type="email" name="email" placeholder="Ingresa tu Email" class="input-contacto" id="input-contacto">	                
 	                <textarea name="consulta" cols="30" rows="6" placeholder="Hace tu consulta <3"></textarea>	
-	                <input type="submit" name="Enviar" value="Enviar Consulta" class="boton-contacto">             
-                </fieldset>
-            </form>
+	                <input type="submit" name="Enviar" value="Enviar Consulta" class="boton-contacto" id="boton-contacto">         
+                </form>
+            </fieldset>
         </div>
     </main>    
 	<footer>
