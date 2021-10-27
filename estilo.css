@@ -305,6 +305,7 @@ label{
 }
   
 .input-contacto{
+	font-family: cursive;
 	text-align: center;
 	width: 63%;
 	height: 35px;
@@ -312,12 +313,14 @@ label{
 }
 
 textarea{
+	font-family: cursive;
    width: 450px;
    height: 110px;
    text-align: center;
 }
 
 .boton-contacto{
+	font-family: cursive;
 	border: none;
 	border-radius: 7px;
 	width: 110px;
@@ -333,13 +336,6 @@ textarea{
 }
 
 /*---------------Diseño Diseños---------------------*/
-/*
-@media (max-width:768px){
-	#grid-item-diseños{
-		width: 100px;
-	}
-}
-*/
 
 .titulo-diseños{
 	font-family: 'Cedarville Cursive', cursive;
@@ -381,6 +377,8 @@ textarea{
 	margin-left: 45px;
 }
 /*----------------Diseño Precios--------------------*/              
+/*
+*/
 
 @media (max-width:768px){
    #titulo-precios{
