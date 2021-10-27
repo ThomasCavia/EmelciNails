@@ -251,18 +251,6 @@ body{
 
 /*----------------Diseño Contacto--------------------*/
 
-@media (max-width:768px){
-   #titulo-contacto{
-   	font-size: 40px;
-   	margin-right: 20%;
-   }
- 
-   #consulta{
-   	letter-spacing: 4px;
-   	width: 60%;
-   }
-}
-
 .titulo-contacto{
    font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
@@ -377,20 +365,11 @@ textarea{
 	margin-left: 45px;
 }
 /*----------------Diseño Precios--------------------*/              
-/*
-*/
-
-@media (max-width:768px){
-   #titulo-precios{
-   	margin-right: 20%;
-   }
-}
 
 .titulo-precios{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 55px;
-   margin-left: 27%;
+   font-size: 80px;
 }
 
 .container-tablasPrecios{
