@@ -377,40 +377,37 @@ textarea{
    margin-left: 26%;
 }
 
-.container-diseños{
+.grid-container-diseños{
 	display: grid;
 	width: 90%;
-	margin: auto;
+	margin: 50px auto;
 	grid-template-columns: repeat(2, 1fr);
 	grid-auto-rows: 200px;
-	padding: 40px;
-	grid-gap: 95px;
-	margin-left: 100px;
+	grid-row-gap: 85px;
 }
 
-.img-diseño{
-	width: 230px;
-	height: 230px;
-	margin-top: 10px;
-	margin-left: 10px;
+.img-diseños{
+	width: 40%;
+	height: 180px;
 	object-fit: cover;
 	border-radius: 5px;
+	margin-left: 10px;
 }
 
-.img-item{
-	position: relative;
-	grid-column-start: span 1;	
-	background-color: white;
+.grid-item-diseños{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	background-image: url(img/fondoimagen.jpg);
-	height: 250px;
+	width: 450px;
+	margin: 0 auto;
 }
 
-.desc-img{
-   position: absolute;
+.desc-diseños{
 	font-family: cursive;
-	font-size: 1rem;
-   left: 320px;
-	top: 30px;
+	font-size: 16px;
+	margin-bottom: 100px;
+	margin-left: 50px;
 }
 /*----------------Diseño Precios--------------------*/              
 
