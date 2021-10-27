@@ -1,4 +1,4 @@
-*{
+{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -24,12 +24,11 @@ body{
 
 /*--------------------nav------------------------*/
 
-.Container{
+.container-nav{
 	display: flex;
 	height: 135px;
 	width: 98%;
-	margin: auto;
-	margin-top: 20px;
+	margin: 20px auto;
 	background-color: white;
 	opacity: .85;
 	justify-content: space-between;
@@ -47,10 +46,9 @@ body{
 	width: 105px;
 }
 
-.nav-main{
+.nav-menu{
 	font-family: cursive;
 	font-size: 17px;
-
 }
 
 .nav-main ul{
@@ -73,6 +71,7 @@ body{
 	cursor: pointer;
 }
 
+
 #boton-menu{
 	display: none;
 }
@@ -87,59 +86,7 @@ body{
 	opacity: 0.50;
 }
 
-@media (max-width:768px){
-   .Container{
-      display: flex;
-	   height: 100px;
-	   width: 100%;
-	   margin: auto;
-	   background-color: white;
-	   opacity: .85;
-	   justify-content: space-between;
-	   align-items: center;
-	   flex-direction: row;
-	   margin-top: 5px;
-   }
-
-   .nav-logo{
-   	display: block;
-	   margin-right: 40px;
-	   width: 80px;
-	   order: 3;
-   }
-
-   .icono-menu{
-   	display: block;
-   	color: pink;
-   	font-size: 25px;
-   	margin-left: 40px;
-   	
-   }
-
-   .nav-main{
-   	display: block;
-   	position: absolute;
-   	top: 105px;
-   	right: 100%;
-   	transition: 0.3s;
-   	order: 1;
-   }
-
-   .nav-main ul{
-   	flex-direction: column;
-   	background-color: pink;
-   }
-
-   #boton-menu:checked ~ .nav-main{
-   	right: 84%;
-   }
-}
-
 /*--------------------Footer------------------------*/
-
-@media (max-width:768px){
-
-}
 
 .footer{
 	display: flex;
@@ -207,69 +154,19 @@ body{
 
 /*----------------Diseño Home----------------------*/
 
-@media (max-width:768px){
-   #titulo-home{
-	   font-family: 'Cedarville Cursive', cursive;
-      letter-spacing: 4px;
-      font-size: 40px;
-      margin-right: 26%;
-   }
-
-   #container-infoHome{
-   	height: 1150px;
-   }
-
-   #titulo-bienvenida{
-   	font-size: 30px;
-   }
-
-   #img-container{
-      height: 305px;
-      width: 90%;
-      display: flex;
-	   justify-content: space-between;
-	   align-items: center;
-	   background-color: white;
-	   background-image: url(img/fondoimagen.jpg);
-	   background-size: cover;
-      border-radius: 10px;
-   }
-
-   #img-home{
-   	display: flex;
-   	height: 300px;
-	   width: 200px;
-	   border-radius: 5px;
-   }
-
-   #titulo-destacados{
-      font-size: 30px;
-   }
-
-   #container-imgDestacados{
-      display: flex;
-	   justify-content: space-around;
-	   align-items: center;
-	   background-color: beige;
-	   width: 80%;
-	   height: 150px;
-	   background-image: url(img/fondoimagen2.jpg);
-	   background-attachment: fixed;
-	   background-size: cover;
-	   border-radius: 7px;
-   }
-
-   #img-destacados{
-   	width: 110px;
-	   height: 120px;
-   }
+.titulo-home{
+   font-size: 90px;
+   letter-spacing: 9px;
+   font-family: 'Cedarville Cursive', cursive;	
+   margin-left: 100px;
+   margin-top: 10px;
 }
 
-.titulo-home{
-	font-family: 'Cedarville Cursive', cursive;
-   letter-spacing: 9px;
-   font-size: 60px;
-   margin-left: 27%;
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .titulo-destacados{
@@ -283,46 +180,35 @@ body{
  	letter-spacing: 5px;
 }
 
-.container-infoHome{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 1300px;
-	margin-top: 50px;
-	justify-content: space-around;
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 350px;
+	width: 85%;
+	background-color: white;
+	grid-gap: 15px;
+	height: 360px;
+}
+
+.img-home{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+	transition: 0.5s;
+	margin-top: 5px;
 }
 
 .titulo-bienvenida{
 	text-align: center;
-	width: 55%;
+	width: 35%;
    background-color: white;
    font-size: 40px;
 	letter-spacing: 7px;
 	border-radius: 15px;
 }
 
-.img-container{
-	width: 85%;
-	height: 450px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: white;
-	background-image: url(img/fondoimagen.jpg);
-	background-size: cover;
-   border-radius: 10px;  
-}
-
-.img-home{
-	height: 450px;
-	width: 350px;
-	border-radius: 5px;
-	transition: 0.3s;
-}
-
 .img-home:hover{
-	width: 390px;
-	height: 500px;
+	transform: scale(1.1);
 }
 
 .texto-bienvenida{
@@ -340,24 +226,6 @@ body{
 	text-align: center;
 }
 
-.container-imgDestacados{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: beige;
-	width: 80%;
-	height: 250px;
-	background-image: url(img/fondoimagen2.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	border-radius: 7px;
-}
-
-.img-destacados{
-	width: 196px;
-	height: 200px;
-
-}
 
 /*----------------Diseño Contacto--------------------*/
 

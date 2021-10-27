@@ -1,0 +1,85 @@
+<!-- Encabezado -->
+	<header  class="Container">
+		<!-- Menu de Navegacion Responsive -->
+	    <input type="checkbox" name="Menu responsive" id="boton-menu">
+	    <label for="boton-menu" class="icono-menu"><i class="fas fa-bars"></i></label>			
+		<!-- Logo -->
+		<div class="nav-logo">		
+			<a href="index.html"><i><img src="img/Logo.jpeg" alt=">EmelciNails Logo" class="nav-logo"></i></a>
+		</div>
+	    <!-- Titulo de Pagina -->
+		<h1 class="titulo-home" id="titulo-home">Home</h1>	
+    <!-- Menu de Navegación -->   
+	<nav class="nav-main">
+		<ul class="nav-menu">
+		    <li><a href="diseños.html">Diseños</a></li>
+		    <li><a href="precios.html">Precios</a></li>
+		    <li><a href="turnos.html">Turnos</a></li>
+		    <li><a href="contacto.html">Contacto</a></li>			  	
+	    </ul> 
+	</nav>
+	</header>
+
+
+-------------------------------------------------------------------------------------------------------
+.container-nav{
+	display: flex;
+	height: 135px;
+	width: 98%;
+	margin: 20px auto;
+	background-color: white;
+	opacity: .85;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.nav-logo{
+	margin-left: 10px;
+	width: 100px;
+	transition: 0.2s;
+}
+
+.nav-logo:hover{
+	width: 105px;
+}
+
+.nav-main{
+	font-family: cursive;
+	font-size: 17px;
+}
+
+.nav-main ul{
+	display: flex;
+	padding-bottom: 15px;
+	padding-top: 25px;
+}
+
+.nav-main ul li{
+	padding: 20px;
+}
+
+.nav-main ul li a{
+	padding: 8px;
+	color: #f79fbe;
+}
+
+.nav-main ul li a:hover{
+	border-bottom: 2px solid;
+	cursor: pointer;
+}
+
+
+#boton-menu{
+	display: none;
+}
+
+.icono-menu{
+	display: none;
+	font-size: 25px;
+}
+
+.icono-menu:hover{
+	cursor: pointer;
+	opacity: 0.50;
+}
