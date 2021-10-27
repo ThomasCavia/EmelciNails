@@ -335,38 +335,9 @@ textarea{
 /*---------------Diseño Diseños---------------------*/
 /*
 @media (max-width:768px){
-	#titulo-diseños{
-		font-size: 40px;
-		margin-right: 10%;
+	#grid-item-diseños{
+		width: 100px;
 	}
-
-	#img-item{
-		height: 280px;
-		width: 210px;
-		
-	}
-
-   #img-diseño{
-   	width: 190px;
-   	height: 190px;
-   	margin-top: 8px;
-   	margin-left: 10px;
-   }
-
-   #desc-img{
-	   position: absolute;
-	   font-family: cursive;
-	   font-size: 16px;
-      left: 17px;
-	   top: 218px;
-   }
-
-   #container-diseños{
-   	width: 70%;
-   	grid-gap: 100px;
-      grid-auto-rows: 230px;
-      margin-left: 100px;
-   }
 }
 */
 
@@ -399,7 +370,7 @@ textarea{
 	flex-direction: row;
 	align-items: center;
 	background-image: url(img/fondoimagen.jpg);
-	width: 450px;
+	width: 430px;
 	margin: 0 auto;
 }
 
@@ -407,7 +378,7 @@ textarea{
 	font-family: cursive;
 	font-size: 16px;
 	margin-bottom: 100px;
-	margin-left: 50px;
+	margin-left: 45px;
 }
 /*----------------Diseño Precios--------------------*/              
 
