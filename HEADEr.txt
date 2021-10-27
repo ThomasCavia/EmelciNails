@@ -1,0 +1,18 @@
+<!-- Encabezado -->
+	<header class="container-nav">		
+		<!-- Logo -->
+		<div class="nav-logo">
+        <a href="index.html"><i><img src="img/Logo.jpeg" alt=">EmelciNails Logo" class="nav-logo"></i></a>
+        </div>
+	    <!-- Titulo de Pagina -->
+		<h1 class="titulo-home">Home</h1>	
+    <!-- Menu de Navegación -->   
+	<nav class="nav-main">
+        <ul class="nav justify-content-end nav-menu">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="diseños.html">Diseños</a></li>
+            <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
+            <li class="nav-item"><a class="nav-link" href="turnos.html">Turnos</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+	</header>

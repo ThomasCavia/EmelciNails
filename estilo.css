@@ -333,7 +333,7 @@ textarea{
 }
 
 /*---------------Diseño Diseños---------------------*/
-
+/*
 @media (max-width:768px){
 	#titulo-diseños{
 		font-size: 40px;
@@ -368,6 +368,7 @@ textarea{
       margin-left: 100px;
    }
 }
+*/
 
 .titulo-diseños{
 	font-family: 'Cedarville Cursive', cursive;
