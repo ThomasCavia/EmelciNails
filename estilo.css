@@ -116,6 +116,7 @@ body{
 .titulo-map{
 	font-family: monospace;
 	color: beige;
+	font-size: 12px;
 }
 
 .map{
@@ -167,6 +168,8 @@ body{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	height: 1100px;
+	margin-top: 50px;
 }
 
 .titulo-destacados{
@@ -174,7 +177,7 @@ body{
 	letter-spacing: 5px;
 	border-radius: 10px;
 	opacity: .85;
-	width: 60%;
+	width: 40%;
  	font-size: 40px;
    text-align: center;
  	letter-spacing: 5px;
@@ -188,6 +191,8 @@ body{
 	background-color: white;
 	grid-gap: 15px;
 	height: 360px;
+	background-color: white;
+	background-image: url(img/fondoimagen.jpg);
 }
 
 .img-home{
@@ -196,6 +201,23 @@ body{
 	object-fit: cover;
 	transition: 0.5s;
 	margin-top: 5px;
+}
+
+.container-destacados{
+	display: flex;
+	flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height: 190px;
+   width: 70%;
+   background-color: beige;
+   background-image: url(img/fondoimagen2.jpg);
+}
+
+.img-home-destacados{
+	width: 100%;
+	height: 170px;
+	object-fit: cover;
 }
 
 .titulo-bienvenida{
