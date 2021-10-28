@@ -254,7 +254,9 @@ body{
 .titulo-contacto{
    font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 55px;
+   font-size: 80px;
+   margin-left: 50px;
+   margin-top: 15px;
 }
 
 .consulta{
@@ -327,8 +329,8 @@ textarea{
 .titulo-diseños{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 55px;
-   margin-left: 26%;
+   font-size: 80px;
+   margin-top: 15px;
 }
 
 .grid-container-diseños{
@@ -369,6 +371,7 @@ textarea{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
    font-size: 80px;
+   margin-top: 15px;
 }
 
 .container-tablasPrecios{
@@ -438,25 +441,10 @@ textarea{
 
 /*----------------Diseño Turnos--------------------*/
 
-@media (max-width:768px){
-   #titulo-turnos{
-   	margin-right: 12%;
-   }
-
-   #boton-armaTurno{
-      margin-right: 25px;
-   }
-
-   #titulo-disponibilidad{
-      width: 30%;
-   }
-}
-
-.titulo-turnos{
+.titulo-Turnos{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 55px;
-   margin-left: 27%;
+   font-size: 80px;
 }
 
 .boton-armaTurno{
