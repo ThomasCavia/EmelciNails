@@ -445,6 +445,7 @@ textarea{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
    font-size: 80px;
+   margin-top: 15px;
 }
 
 .boton-armaTurno{
@@ -523,11 +524,8 @@ textarea{
 	width: 650px;
 	height: 115px;
 }
+
 /*--------------Diseño Arma tu turno-------------*/
-
-@media (max-width:768px){
-
-}
 
 .titulo-armadoTurno{
 	font-family: 'Cedarville Cursive', cursive;
