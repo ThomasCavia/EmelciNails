@@ -11,7 +11,7 @@ a{
 }
 body{
 	background-color: #d3bcf6;
-   font-family: 'Cedarville Cursive', cursive;
+   font-family: 'Vibur', cursive;
    font-size: 14px;
    color: black;
    background-color: pink;
@@ -146,9 +146,9 @@ body{
 /*----------------Diseño Home----------------------*/
 
 .titulo-home{
-   font-size: 90px;
+   font-size: 70px;
    letter-spacing: 9px;
-   font-family: 'Cedarville Cursive', cursive;	
+   font-family: 'Yellowtail', cursive;
    margin-left: 90px;
    margin-top: 10px;
 }
@@ -168,7 +168,7 @@ body{
 	border-radius: 10px;
 	opacity: .85;
 	width: 50%;
- 	font-size: 40px;
+ 	font-size: 30px;
    text-align: center;
  	letter-spacing: 5px;
 }
@@ -242,7 +242,7 @@ body{
 /*----------------Diseño Contacto--------------------*/
 
 .titulo-contacto{
-   font-family: 'Cedarville Cursive', cursive;
+   font-family: 'Yellowtail', cursive;
    letter-spacing: 9px;
    font-size: 80px;
    margin-left: 90px;
@@ -317,7 +317,7 @@ textarea{
 /*---------------Diseño Diseños---------------------*/
 
 .titulo-diseños{
-	font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Yellowtail', cursive;
    letter-spacing: 9px;
    font-size: 80px;
    margin-left: 90px;
@@ -359,7 +359,7 @@ textarea{
 /*----------------Diseño Precios--------------------*/              
 
 .titulo-precios{
-	font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Yellowtail', cursive;
    letter-spacing: 9px;
    font-size: 80px;
    margin-top: 15px;
@@ -434,7 +434,7 @@ textarea{
 /*----------------Diseño Turnos--------------------*/
 
 .titulo-Turnos{
-	font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Yellowtail', cursive;
    letter-spacing: 9px;
    font-size: 80px;
    margin-top: 15px;
@@ -518,7 +518,7 @@ textarea{
 /*--------------Diseño Arma tu turno-------------*/
 
 .titulo-tuTurno{
-	font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Yellowtail', cursive;s
    letter-spacing: 9px;
    font-size: 65px;
    margin-top: 10px;
