@@ -51,29 +51,18 @@ body{
 	font-size: 17px;
 }
 
+
 .nav-main ul{
-	display: flex;
 	padding-bottom: 15px;
 	padding-top: 25px;
 }
 
 .nav-main ul li{
-	padding: 20px;
+	padding: 10px;
 }
 
 .nav-main ul li a{
-	padding: 8px;
 	color: #f79fbe;
-}
-
-.nav-main ul li a:hover{
-	border-bottom: 2px solid;
-	cursor: pointer;
-}
-
-
-#boton-menu{
-	display: none;
 }
 
 .icono-menu{
@@ -85,6 +74,7 @@ body{
 	cursor: pointer;
 	opacity: 0.50;
 }
+
 
 /*--------------------Footer------------------------*/
 
@@ -159,7 +149,7 @@ body{
    font-size: 90px;
    letter-spacing: 9px;
    font-family: 'Cedarville Cursive', cursive;	
-   margin-left: 100px;
+   margin-left: 90px;
    margin-top: 10px;
 }
 
@@ -177,7 +167,7 @@ body{
 	letter-spacing: 5px;
 	border-radius: 10px;
 	opacity: .85;
-	width: 40%;
+	width: 50%;
  	font-size: 40px;
    text-align: center;
  	letter-spacing: 5px;
@@ -222,10 +212,10 @@ body{
 
 .titulo-bienvenida{
 	text-align: center;
-	width: 35%;
+	width: 40%;
    background-color: white;
    font-size: 40px;
-	letter-spacing: 7px;
+	letter-spacing: 9px;
 	border-radius: 15px;
 }
 
@@ -255,7 +245,7 @@ body{
    font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
    font-size: 80px;
-   margin-left: 50px;
+   margin-left: 90px;
    margin-top: 15px;
 }
 
@@ -330,6 +320,7 @@ textarea{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
    font-size: 80px;
+   margin-left: 90px;
    margin-top: 15px;
 }
 
@@ -372,6 +363,7 @@ textarea{
    letter-spacing: 9px;
    font-size: 80px;
    margin-top: 15px;
+   margin-left: 90px;
 }
 
 .container-tablasPrecios{
@@ -446,27 +438,24 @@ textarea{
    letter-spacing: 9px;
    font-size: 80px;
    margin-top: 15px;
+   margin-left: 90px;
 }
 
-.boton-armaTurno{
-   background-color: white;
-   margin-top: 50px;
-   width: 150px;
-   padding: 5px;
-   text-align: center;
-   border-radius: 7px;
-   margin-left: auto;
-   margin-right: 100px;
-   font-family: monospace;
+.btn-secondary{
+	display: flex;
+	background-color: pink;
+	font-family: monospace;
 	color: black;
-	transition: 0.2s;
+	border: none;
+	margin-left: auto;
+	margin-right: 100px;
+	margin-top: 50px;
+	transition: 0.3s;
 }
 
-.boton-armaTurno:hover{
-	background-image: linear-gradient(to right , hotpink , white);
-	transform: scale(1.2);
-	border-radius: 12px;
-	cursor: pointer;
+.btn-secondary:hover{
+	background-color: white;
+	color: black;
 }
 
 .container-tablasTurnos{
@@ -475,7 +464,8 @@ textarea{
 	text-align: center;
 	align-items: center;
 	justify-content: space-between;
-	height: 500px;
+	height: 550px;
+	margin-top: 20px;
 }
 
 .titulo-duracionServicio{
@@ -527,11 +517,11 @@ textarea{
 
 /*--------------Diseño Arma tu turno-------------*/
 
-.titulo-armadoTurno{
+.titulo-tuTurno{
 	font-family: 'Cedarville Cursive', cursive;
    letter-spacing: 9px;
-   font-size: 45px;
-   margin-left: 21%;
+   font-size: 65px;
+   margin-top: 10px;
 }
 
 .tuTurno{
