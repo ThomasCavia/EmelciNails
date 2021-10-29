@@ -176,21 +176,20 @@ body{
 .grid-container{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 350px;
-	width: 85%;
+	grid-template-rows: 400px;
+	width: 80%;
 	background-color: white;
 	grid-gap: 15px;
-	height: 360px;
+	height: 400px;
 	background-color: white;
 	background-image: url(img/fondoimagen.jpg);
 }
 
 .img-home{
 	width: 100%;
-	height: 350px;
+	height: 400px;
 	object-fit: cover;
 	transition: 0.5s;
-	margin-top: 5px;
 }
 
 .container-destacados{
@@ -298,20 +297,18 @@ textarea{
    text-align: center;
 }
 
-.boton-contacto{
+.btn-info{
+	background-color: white;
 	font-family: cursive;
 	border: none;
 	border-radius: 7px;
-	width: 110px;
-	height: 20px;
-	transition: 0.2s;
+	transition: 0.3s;
 }
 
-.boton-contacto:hover{
-	background-image: linear-gradient(to right , hotpink , violet);
+.btn-info:hover{
+	background-color: pink;
 	transform: scale(1.1);
 	border-radius: 11px;
-	cursor: pointer;
 }
 
 /*---------------Diseño Diseños---------------------*/
