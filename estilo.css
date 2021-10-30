@@ -65,19 +65,12 @@ body{
 }
 
 .nav-main ul li a{
-	color: #f79fbe;
+	color: pink;
 }
 
-.icono-menu{
-	display: none;
-	font-size: 25px;
+.nav-main ul li a:hover{
+	color: #bc98f3;
 }
-
-.icono-menu:hover{
-	cursor: pointer;
-	opacity: 0.50;
-}
-
 
 /*--------------------Footer------------------------*/
 
@@ -172,13 +165,12 @@ body{
 
 .titulo-destacados{
 	background-color: white;
-	letter-spacing: 5px;
 	border-radius: 10px;
-	opacity: .85;
-	width: 50%;
  	font-size: 30px;
    text-align: center;
  	letter-spacing: 5px;
+ 	border-radius: 15px;
+ 	padding: 15px 28px 15px 28px;
 }
 
 .grid-container{
@@ -220,12 +212,12 @@ body{
 }
 
 .titulo-bienvenida{
-	text-align: center;
-	width: 40%;
-   background-color: white;
-   font-size: 40px;
-	letter-spacing: 9px;
-	border-radius: 15px;
+   text-align: center;
+   font-size: 35px;
+	letter-spacing: 10px;
+	background-color: white;
+	padding: 13px 25px 13px 25px;
+	border-radius: 20px;
 }
 
 .img-home:hover{
@@ -233,13 +225,12 @@ body{
 }
 
 .texto-bienvenida{
-	display: flex;
-   background-color: pink;
-   height: 80px;
-   width: 62%;
+	padding: 8px;
+	background-color: white;
    align-items: center;
-   font-size: 1.07rem;
-   border-radius: 15px;
+   font-size: 1.12rem;
+   letter-spacing: 4px;
+   border-radius: 10px;
 }
 
 #texto{
