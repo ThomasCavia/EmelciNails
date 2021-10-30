@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/eedba89f20.js" crossorigin="anonymous"></script>
 </head>
@@ -35,7 +36,7 @@
 	</header>
 	<main>
 		<!-- Texto de Consulta -->
-		<div class="container-boxConsulta">
+		<div class="container-contacto">
 	    <h2 class="consulta" id="consulta">✨ Tu consulta no molesta ✨</h2>
 	    <!-- Formulario de Consulta -->
             <fieldset class="box-consulta">
@@ -47,7 +48,23 @@
 	                <label>Email:</label>
 	                <input type="email" name="email" placeholder="Ingresa tu Email" class="input-contacto">	               
 	                <textarea name="consulta" cols="30" rows="6" placeholder="Hace tu consulta <3"></textarea>	
-	                <button type="submit" name="Enviar" value="enviar consulta" class="btn btn-info">Enviar Consulta</button>       
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="mensaje">Enviar consulta</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Consulta Enviada</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Tu consulta fue enviada, en breves nos comunicamos con vos ✨
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
                 </form>
             </fieldset>
         </div>
