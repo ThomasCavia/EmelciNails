@@ -346,17 +346,6 @@
       margin-left: 60px;
       margin-top: 13px;
    }
-
-	.container-destacados{
-	   display: flex;
-	   flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      height: 170px;
-      width: 85%;
-      background-color: beige;
-      background-image: url(img/fondoimagen2.jpg);
-   }
 }
 
 @media (min-width:1024px){ /*-------- Desktop --------*/
@@ -369,90 +358,30 @@
       margin-top: 10px;
    }
 
-   .flex-container{
-	   display: flex;
-	   flex-direction: column;
-	   justify-content: space-between;
-	   align-items: center;
-	   height: 1100px;
-	   margin-top: 50px;
-	   width: 100%;
-   }
-
-   .titulo-destacados{
-	   background-color: white;
-	   border-radius: 10px;
- 	   font-size: 30px;
-      text-align: center;
- 	   letter-spacing: 5px;
- 	   border-radius: 15px;
- 	   padding: 15px 28px 15px 28px;
-   }
-
    .grid-container{
-	   display: grid;
-	   grid-template-columns: repeat(3, 1fr);
 	   grid-template-rows: 400px;
-	   width: 80%;
-	   background-color: white;
-	   grid-gap: 15px;
 	   height: 400px;
-	   background-color: white;
-	   background-image: url(img/fondoimagen.jpg);
-	   border-radius: 10px;
    }
 
    .img-home{
-	   width: 100%;
 	   height: 400px;
-	   object-fit: cover;
-	   transition: 0.5s;
-	   border-radius: 10px;
    }   
 
    .container-destacados{
-	   display: flex;
-	   flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
       height: 190px;
       width: 70%;
-      background-color: beige;
-      background-image: url(img/fondoimagen2.jpg);
    }
 
    .img-home-destacados{
-	   width: 100%;
 	   height: 170px;
-	   object-fit: cover;
    }
 
    .titulo-bienvenida{
-      text-align: center;
-      font-size: 35px;
-	   letter-spacing: 10px;
-	   background-color: white;
-	   padding: 13px 25px 13px 25px;
-	   border-radius: 20px;
+      font-size: 32px;
    }
 
    .img-home:hover{
 	   transform: scale(1.1);
-   }
-
-   .texto-bienvenida{
-	   padding: 8px;
-	   background-color: white;
-      align-items: center;
-      font-size: 1.12rem;
-      letter-spacing: 4px;
-      border-radius: 10px;
-   }
-
-   #texto{
-	   font-size: 19px;
-	   font-family: monospace;
-	   text-align: center;
    }
 }
 
@@ -557,6 +486,29 @@
       margin-left: 90px;
       margin-top: 15px;
    }
+
+   .box-consulta{
+      height: 600px;
+   }
+
+   .input-contacto{
+	   width: 60%;
+	   height: 40px;
+   }
+
+   textarea{
+      width: 350px;
+      margin-top: 0px;
+   }
+
+   label{
+	   margin-top: 0px;
+   }
+
+   .container-contacto{
+	   height: 750px;
+	   margin-top: 50px;
+   }
 }
    
 
@@ -584,9 +536,8 @@
 	   width: 39%;
 	   height: 270px;
 	   object-fit: cover;
-	   border-radius: 5px;
 	   margin-left: 10px;
-	   border-radius: 10px;
+	   border-radius: 5px;
    }
 
    .grid-item-diseños{
@@ -611,14 +562,12 @@
 	.titulo-diseños{
 	   font-family: 'cedarville cursive', cursive;
       letter-spacing: 9px;
-      font-size: 80px;
+      font-size:75px;
       margin-left: 90px;
       margin-top: 15px;
    }
 
    .grid-container-diseños{
-	   display: grid;
-	   width: 90%;
 	   margin: 50px auto;
 	   grid-template-columns: repeat(2, 1fr);
 	   grid-auto-rows: 200px;
@@ -628,22 +577,13 @@
    .img-diseños{
 	   width: 40%;
 	   height: 180px;
-	   object-fit: cover;
-	   border-radius: 5px;
-	   margin-left: 10px;
    }
 
    .grid-item-diseños{
-	   display: flex;
-	   flex-direction: row;
-	   align-items: center;
-	   background-image: url(img/fondoimagen.jpg);
 	   width: 430px;
-	   margin: 0 auto;
    }
 
    .desc-diseños{
-	   font-family: cursive;
 	   font-size: 16px;
 	   margin-bottom: 100px;
 	   margin-left: 45px;
@@ -731,73 +671,38 @@
    .titulo-precios{
 	   font-family: 'cedarville cursive', cursive;
       letter-spacing: 9px;
-      font-size: 80px;
+      font-size: 75px;
       margin-top: 15px;
       margin-left: 90px;
    }
 
-   .container-tablasPrecios{
-	   height: 1100px;
-	   display: flex;
-	   flex-direction: column;
-	   justify-content: space-between;
-	   align-items: center;
-   }
-
    .titulo-lista{
-	   color: white;
-	   font-family: monospace;
 	   font-size: 20px;
-	   background-color: white;
-	   color: black;
-	   border-radius: 6px;
 	   margin-top: 50px;
 	   padding: 10px 30px 10px 30px;
-      text-align: center;
    }
 
    .titulo-decoExtra{
-	   color: black;
-	   font-family: monospace;
 	   font-size: 21px;
-	   background-color: white;
 	   padding: 10px 30px 10px 30px;
-	   border-radius: 6px;
 	   margin-top: 50px;
-      text-align: center;
    }
 
    .tabla-precios1{
-	   background-color: white;
-	   text-align: center;
-      font-family: monospace;
-      height: 250px;
       width: 400px;
-      font-size: 15px;
-      border-radius: 10px;
-      padding: 5px;
+      font-size: 16px;
    }
 
    .tabla-precios2{
-	   background-color: white;
-	   text-align: center;
-      font-family: monospace;
       height: 250px;
       width: 400px;
-      font-size: 15px;
-      border-radius: 10px;
-      padding: 5px;
+      font-size: 17px;
    }
 
    .tabla-precios3{
-	   background-color: white;
-	   text-align: center;
-      font-family: monospace;
       height: 250px;
       width: 450px;
-      font-size: 15px;
-      border-radius: 10px;
-      padding: 5px;
+      font-size: 16px;
    }
 }
    
@@ -818,6 +723,8 @@
 	   font-family: monospace;
 	   color: black;
 	   border: none;
+	   padding: 15px;
+	   border-radius: 5px;
 	   margin-left: auto;
 	   margin-right: 100px;
 	   margin-top: 50px;
@@ -835,15 +742,16 @@
 	   text-align: center;
 	   align-items: center;
 	   justify-content: space-between;
-	   height: 600px;
-	   margin-top: 20px;
+	   height: 750px;
+	   margin-top: 80px;
    }
 
    .titulo-duracionServicio{
+   	margin-top: 120px;
       background-color: white;
-      padding: 13px 23px 13px 23px;
+      padding: 15px 30px 15px 30px;
 	   text-align: center;
-      font-size: 23px;
+      font-size: 30px;
       letter-spacing: 4px;
       border-radius: 10px;
       opacity: .85;
@@ -852,8 +760,9 @@
    .tabla-duracionServicio{
 	   font-family: cursive;
 	   border-collapse: collapse;
-	   width: 650px;
-	   height: 170px;
+	   font-size: 18px;
+	   width: 750px;
+	   height: 190px;
    }
 
    #th1{
@@ -870,9 +779,9 @@
 
    .titulo-disponibilidad{
 	   background-color: white;
-      padding: 10px 20px 10px 20px;
+      padding: 15px 30px 15px 30px;
 	   text-align: center;
-      font-size: 25px;
+      font-size: 30px;
       letter-spacing: 5px;
       border-radius: 10px;
       opacity: .85;
@@ -882,8 +791,9 @@
 	   background-color: white;
 	   font-family: cursive;
 	   border-collapse: collapse;
-	   width: 650px;
-	   height: 115px;
+	   font-size: 18px;
+	   width: 700px;
+	   height: 150px;
    }
 }
 
@@ -891,21 +801,13 @@
 	.titulo-Turnos{
 	   font-family: 'cedarville cursive', cursive;
       letter-spacing: 9px;
-      font-size: 80px;
+      font-size: 75px;
       margin-top: 15px;
       margin-left: 90px;
    }
 
    .btn-secondary{
-	   display: flex;
-	   background-color: pink;
-	   font-family: monospace;
-	   color: black;
-	   border: none;
-	   margin-left: auto;
-	   margin-right: 100px;
-	   margin-top: 50px;
-	   transition: 0.3s;
+	   padding: 7px;
    }
 
    .btn-secondary:hover{
@@ -914,58 +816,31 @@
    }
 
    .container-tablasTurnos{
-	   display: flex;
-	   flex-direction: column;
-	   text-align: center;
-	   align-items: center;
-	   justify-content: space-between;
 	   height: 600px;
 	   margin-top: 20px;
    }
 
    .titulo-duracionServicio{
-      background-color: white;
+   	margin-top: 0px;
       padding: 10px 20px 10px 20px;
-	   text-align: center;
-      font-size: 23px;
-      letter-spacing: 4px;
-      border-radius: 10px;
-      opacity: .85;
+      font-size: 22px;
    }
 
    .tabla-duracionServicio{
 	   font-family: cursive;
 	   border-collapse: collapse;
+	   font-size: 14px;
 	   width: 650px;
 	   height: 170px;
    }
 
-   #th1{
-	   background-color: #f3a8c2;
-   }
-
-   #th2{
-	   background-color: #f6d1de;
-
-   }
-   #td1{
-	   background-color: white;
-   }      
-
    .titulo-disponibilidad{
-	   background-color: white;
       padding: 10px 20px 10px 20px;
-	   text-align: center;
-      font-size: 23px;
-      letter-spacing: 4px;
-      border-radius: 10px;
-      opacity: .85;
+      font-size: 22px;
    }
 
    .tabla-disponibilidad{
-	   background-color: white;
-	   font-family: cursive;
-	   border-collapse: collapse;
+	   font-size: 14px;
 	   width: 650px;
 	   height: 115px;
    }
