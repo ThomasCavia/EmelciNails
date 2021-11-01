@@ -30,33 +30,8 @@
 }
 
 @media (min-width:1024px){ /*-------- Desktop --------*/
-	*{
-	   box-sizing: border-box;
-	   margin: 0;
-	   padding: 0;
-   }
-
-   ul{
-	   list-style: none;
-   }
-
-   a{
-	   text-decoration: none;
-   }
 
    body{
-	   background-color: #d3bcf6;
-      font-family: 'Vibur', cursive;
-      font-size: 14px;
-      color: black;
-      background-color: pink;
-      background-image: url(img/Fondo2.jpg);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      background-size: cover;
-      position: relative;
-      padding-bottom: 350px;
       min-height: 99vh;
    }
 }
