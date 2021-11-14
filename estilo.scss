@@ -30,7 +30,6 @@
 }
 
 @media (min-width:1024px){ /*-------- Desktop --------*/
-
    body{
       min-height: 99vh;
    }
@@ -164,7 +163,6 @@
 /*-------------------- Diseño Home --------------------------*/
 
 @media (min-width:320px){ /*-------- Mobile --------*/
-
 	.titulo-home{
       font-size: 65px;
       letter-spacing: 5px;
@@ -251,6 +249,8 @@
       font-size: 1.12rem;
       letter-spacing: 4px;
       border-radius: 10px;
+      text-align: center;
+      width: 90%;
    }
 
    #texto{
@@ -261,7 +261,6 @@
 }
 
 @media (min-width:768px){ /*-------- Tablet --------*/
-
    .titulo-home{
       font-size: 62px;
       letter-spacing: 6px;
@@ -272,7 +271,6 @@
 }
 
 @media (min-width:1024px){ /*-------- Desktop --------*/
-
 	.titulo-home{
       font-size: 70px;
       letter-spacing: 9px;
@@ -292,7 +290,7 @@
 
    .container-destacados{
       height: 205px;
-      width: 78%;
+      width: 79%;
    }
 
    .img-home-destacados{
@@ -395,7 +393,6 @@
 }
 
 @media (min-width:768px) { /*-------- Tablet --------*/
-
    .titulo-contacto{
       font-family: 'cedarville cursive', cursive;
       letter-spacing: 9px;
@@ -406,7 +403,6 @@
 }
 
 @media (min-width:1024px) { /*-------- Desktop --------*/
-
    .titulo-contacto{
       font-family: 'cedarville cursive', cursive;
       letter-spacing: 9px;
@@ -439,7 +435,6 @@
    }
 }
    
-
 /*------------------- Diseño Diseños -------------------------*/
 
 @media (min-width:320px){ /*-------- Mobile --------*/
@@ -521,7 +516,6 @@
 /*-------------------- Diseño Precios ------------------------*/              
 
 @media (min-width:320px){ /*-------- Mobile --------*/
-
    .titulo-precios{
 	   font-family: 'cedarville cursive', cursive;
        letter-spacing: 9px;
@@ -595,7 +589,6 @@
 }
 
 @media (min-width:1024px){ /*-------- Desktop --------*/
-
    .titulo-precios{
 	   font-family: 'cedarville cursive', cursive;
        letter-spacing: 9px;
@@ -732,15 +725,6 @@
       font-size: 75px;
       margin-top: 15px;
       margin-left: 90px;
-   }
-
-   .btn-secondary{
-	   padding: 7px;
-   }
-
-   .btn-secondary:hover{
-	   background-color: white;
-	   color: black;
    }
 
    .container-tablasTurnos{

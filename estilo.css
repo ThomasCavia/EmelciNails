@@ -245,6 +245,8 @@
     font-size: 1.12rem;
     letter-spacing: 4px;
     border-radius: 10px;
+    text-align: center;
+    width: 90%;
   }
 
   #texto {
@@ -284,7 +286,7 @@
 
   .container-destacados {
     height: 205px;
-    width: 78%;
+    width: 79%;
   }
 
   .img-home-destacados {
@@ -716,15 +718,6 @@
     font-size: 75px;
     margin-top: 15px;
     margin-left: 90px;
-  }
-
-  .btn-secondary {
-    padding: 7px;
-  }
-
-  .btn-secondary:hover {
-    background-color: white;
-    color: black;
   }
 
   .container-tablasTurnos {
