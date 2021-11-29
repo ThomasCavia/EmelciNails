@@ -84,6 +84,7 @@
 /*------------------------ Footer ----------------------------*/
 
 @media (min-width:320px){ /*-------- Mobile --------*/
+   
 	.footer{
 	   position: absolute;
 	   display: flex;
@@ -103,7 +104,6 @@
 	   align-items: center;
 	   flex-direction: column;
 	   order: 3;
-	   margin-right: 200px;
 	   width: 350px;
 	   height: 200px;
    }
@@ -112,31 +112,33 @@
 	   font-family: monospace;
 	   color: beige;
       font-size: 20px;
-	   margin-left: 300px;
 	   width: 100%;
    }
 
    .map{
-   	margin-left: 250px;
 	   width: 300px;
 	   height: 170px;
    }
 
    .iconos-container{
-      width: 350px;
-      height: 70px;
-      border-radius: 10px;
+      width: 500px;
+      height: 120px;
+      margin-left: 100px;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
    }
 
    .info-contacto{
 	   display: flex;
 	   flex-direction: row;
 	   justify-content: space-around;
+      padding: 0 70px 0 70px;
    }
 
    .icono-contacto{
 	   font-size: 40px;
 	   color: white;
+      margin-top: 38px;
    }
 
    .footer-logo{
@@ -155,7 +157,7 @@
    }
 
    .map{
-	   margin-right: 130px;
+      
    }
 }
 
