@@ -16,7 +16,6 @@
   }
 
   body {
-    background-color: #d3bcf6;
     font-family: "Vibur", cursive;
     font-size: 14px;
     color: black;
@@ -101,7 +100,7 @@
     flex-direction: column;
     order: 3;
     margin-right: 200px;
-    width: 250px;
+    width: 350px;
     height: 200px;
   }
 
@@ -115,12 +114,12 @@
 
   .map {
     margin-left: 250px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 170px;
   }
 
   .iconos-container {
-    width: 300px;
+    width: 350px;
     height: 70px;
     border-radius: 10px;
   }
@@ -132,7 +131,7 @@
   }
 
   .icono-contacto {
-    font-size: 35px;
+    font-size: 40px;
     color: white;
   }
 
@@ -146,7 +145,7 @@
 @media (min-width: 1024px) {
   /*-------- Desktop --------*/
   .titulo-map {
-    font-size: 12px;
+    font-size: 15px;
     margin-right: 80px;
   }
 
@@ -161,8 +160,7 @@
     font-size: 65px;
     letter-spacing: 5px;
     font-family: "cedarville cursive";
-    margin-left: 50px;
-    margin-top: 10px;
+    margin: 10px 0 0 50px;
   }
 
   .flex-container {
@@ -261,8 +259,7 @@
     font-size: 62px;
     letter-spacing: 6px;
     font-family: "cedarville cursive";
-    margin-left: 60px;
-    margin-top: 13px;
+    margin: 13px 0 0 60px;
   }
 }
 @media (min-width: 1024px) {
@@ -271,8 +268,7 @@
     font-size: 70px;
     letter-spacing: 9px;
     font-family: "cedarville cursive";
-    margin-left: 90px;
-    margin-top: 10px;
+    margin: 10px 0 0 50px;
   }
 
   .grid-container {
@@ -313,8 +309,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 4px;
     font-size: 40px;
-    margin-left: 30px;
-    margin-top: 15px;
+    margin: 15px 0 0 30px;
   }
 
   .consulta {
@@ -392,8 +387,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 9px;
     font-size: 55px;
-    margin-left: 70px;
-    margin-top: 15px;
+    margin: 15px 0 0 70px;
   }
 }
 @media (min-width: 1024px) {
@@ -402,8 +396,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 9px;
     font-size: 64px;
-    margin-left: 90px;
-    margin-top: 15px;
+    margin: 15px 0 0 90px;
   }
 
   .box-consulta {
@@ -436,8 +429,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 5px;
     font-size: 55px;
-    margin-left: 50px;
-    margin-top: 15px;
+    margin: 15px 0 0 50px;
   }
 
   .grid-container-diseños {
@@ -471,8 +463,7 @@
   .desc-diseños {
     font-family: cursive;
     font-size: 23px;
-    margin-bottom: 190px;
-    margin-left: 110px;
+    margin: 0 110px 0 190px;
   }
 }
 @media (min-width: 1024px) {
@@ -481,8 +472,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 9px;
     font-size: 75px;
-    margin-left: 90px;
-    margin-top: 15px;
+    margin: 15px 0 0 90px;
   }
 
   .grid-container-diseños {
@@ -503,8 +493,7 @@
 
   .desc-diseños {
     font-size: 16px;
-    margin-bottom: 100px;
-    margin-left: 45px;
+    margin: 0 0 100px 45px;
   }
 }
 /*-------------------- Diseño Precios ------------------------*/
@@ -514,8 +503,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 9px;
     font-size: 60px;
-    margin-top: 15px;
-    margin-left: 30px;
+    margin: 15px 0 0 30px;
   }
 
   .container-tablasPrecios {
@@ -587,8 +575,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 9px;
     font-size: 75px;
-    margin-top: 15px;
-    margin-left: 90px;
+    margin: 15px 0 0 90px;
   }
 
   .titulo-lista {
@@ -627,27 +614,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 5px;
     font-size: 60px;
-    margin-top: 15px;
-    margin-left: 40px;
-  }
-
-  .btn-secondary {
-    display: flex;
-    background-color: pink;
-    font-family: monospace;
-    color: black;
-    border: none;
-    padding: 15px;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: 100px;
-    margin-top: 50px;
-    transition: 0.3s;
-  }
-
-  .btn-secondary:hover {
-    background-color: white;
-    color: black;
+    margin: 15px 0 0 40px;
   }
 
   .container-tablasTurnos {
@@ -716,8 +683,7 @@
     font-family: "cedarville cursive", cursive;
     letter-spacing: 9px;
     font-size: 75px;
-    margin-top: 15px;
-    margin-left: 90px;
+    margin: 15px 0 0 90px;
   }
 
   .container-tablasTurnos {
