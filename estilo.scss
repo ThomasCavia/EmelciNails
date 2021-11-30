@@ -372,16 +372,16 @@
       margin-top: 70px;
    }
 
-   .btn-primary{
+   .btn-form{
       background-color: pink;
       color: black;
 	   border: none;
 	   border-radius: 7px;
-	   padding: 8px;
+      padding: 8px;
 	   transition: 0.3s;
    }
 
-   .btn-primary:hover{
+   .btn-form:hover{
 	   color: black;
 	   background-color: pink;
 	   transform: scale(1.1);
@@ -469,8 +469,11 @@
 
    .desc-diseños{
 	   font-family: cursive;
-	   font-size: 23px;
-      margin: 0 110px 0 190px;
+	   font-size: 25px;
+      margin: auto;
+      width: 45%;
+      text-align: center;
+      font-family: cursive
    }
 }
 
@@ -500,7 +503,8 @@
 
    .desc-diseños{
 	   font-size: 16px;
-	   margin: 0 0 100px 45px;
+      margin: auto;
+      width: 50%;
    }
 }
 

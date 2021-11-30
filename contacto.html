@@ -39,36 +39,35 @@
 	<main>
 		<!-- Texto de Consulta -->
 		<div class="container-contacto">
-	    <h2 class="consulta" id="consulta">&#10024; Tu consulta no molesta &#10024;</h2>
-	    <!-- Formulario de Consulta -->
-            <fieldset class="box-consulta">
-                <form class="box-consulta"> 	
-	                <label>Nombre:</label>
-	                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="input-contacto">	            
-	                <label>Telefono:</label>
-	                <input type="text" name="telefono" placeholder="Ingresa tu Telefono" class="input-contacto">	        
-	                <label>Email:</label>
-	                <input type="email" name="email" placeholder="Ingresa tu Email" class="input-contacto">	               
-	                <textarea name="consulta" cols="30" rows="6" placeholder="Hace tu consulta <3"></textarea>	
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="mensaje">Enviar consulta</button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Consulta Enviada</h5>
-                                </div>
-                                <div class="modal-body">
-                                    Tu consulta fue enviada, en breves nos comunicamos con vos &#10024;;
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
+	        <h2 class="consulta" id="consulta">&#10024; Tu consulta no molesta &#10024;</h2>
+	            <!-- Formulario de Consulta -->
+            <form class="box-consulta"> 	
+	            <label>Nombre:</label>
+	            <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="input-contacto">	            
+	            <label>Telefono:</label>
+	            <input type="text" name="telefono" placeholder="Ingresa tu Telefono" class="input-contacto">	        
+	            <label>Email:</label>
+	            <input type="email" name="email" placeholder="Ingresa tu Email" class="input-contacto">	               
+	            <textarea name="consulta" cols="30" rows="6" placeholder="Hace tu consulta <3"></textarea>	
+                <button class="btn-form" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" id="mensaje">Enviar Consulta</button>
+                <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="mensaje">Enviar consulta</button>-->
+            </form>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Consulta Enviada</h5>
                         </div>
-                    </div>        
-                </form>
-            </fieldset>
+                        <div class="modal-body">
+                            Tu consulta fue enviada, en breves nos comunicamos con vos &#10024;;
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </div>
     </main>    
 	<footer>
