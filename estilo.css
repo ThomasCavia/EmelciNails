@@ -117,7 +117,7 @@
   }
 
   .iconos-container {
-    width: 380px;
+    width: 400px;
     height: 120px;
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -148,6 +148,15 @@
   .titulo-map {
     font-size: 15px;
     margin-right: 80px;
+  }
+
+  .iconos-container {
+    width: 500px;
+  }
+
+  .map {
+    margin-right: 200px;
+    width: 350px;
   }
 }
 /*-------------------- Diseño Home --------------------------*/
@@ -458,7 +467,7 @@
   }
 
   .desc-diseños {
-    font-family: cursive;
+    color: #b73877;
     font-size: 25px;
     margin: auto;
     width: 45%;

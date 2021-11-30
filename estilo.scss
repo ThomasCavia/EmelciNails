@@ -121,8 +121,9 @@
       margin-right: 100px;
    }
 
+
    .iconos-container{
-      width: 380px;
+      width: 400px;
       height: 120px;
       border-left: 1px solid white;
       border-right: 1px solid white;
@@ -156,8 +157,13 @@
 	   margin-right: 80px;
    }
 
+   .iconos-container{
+      width: 500px;
+   }
+
    .map{
-      
+      margin-right: 200px;
+      width: 350px;
    }
 }
 
@@ -468,7 +474,7 @@
    }
 
    .desc-diseños{
-	   font-family: cursive;
+      color: #b73877;
 	   font-size: 25px;
       margin: auto;
       width: 45%;
