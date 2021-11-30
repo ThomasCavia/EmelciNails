@@ -27,7 +27,7 @@
     background-size: cover;
     position: relative;
     padding-bottom: 350px;
-    min-height: 100vh;
+    min-height: 80vh;
   }
 }
 @media (min-width: 1024px) {
