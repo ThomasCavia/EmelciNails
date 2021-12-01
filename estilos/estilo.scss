@@ -1,0 +1,760 @@
+@media (min-width:320px){ /*-------- Mobile --------*/
+	*{
+	   box-sizing: border-box;
+	   margin: 0;
+	   padding: 0;
+   }
+
+   ul{
+	   list-style: none;
+   }
+   a{
+	   text-decoration: none;
+   }
+
+   body{
+      font-family: 'Vibur', cursive;
+      font-size: 14px;
+      color: black;
+      background-color: rgb(255, 194, 204);
+      background-image: url(img/Fondo2.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      position: relative;
+      padding-bottom: 350px;
+      min-height: 100vh;
+   }
+}
+
+@media (min-width:1024px){ /*-------- Desktop --------*/
+   body{
+      min-height: 99vh;
+   }
+}
+
+/*------------------------ Nav ----------------------------*/
+
+.container-nav{
+	display: flex;
+	height: 135px;
+	width: 98%;
+	margin: 20px auto;
+	background-color: #fff;
+	opacity: .85;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.nav-logo{
+	margin-left: 10px;
+	width: 100px;
+	transition: 0.2s;
+}
+
+.nav-logo:hover{
+	width: 105px;
+}
+
+.nav-menu{
+	font-family: cursive;
+	font-size: 17px;
+}
+
+.nav-main{
+    ul{
+        padding-right: 15px;
+    }
+
+    li{
+        padding: 10px;
+    }
+
+    a{
+        color: #ffc0cb;
+    }
+
+    a:hover{
+        color: #bc98f3;
+    }
+}
+
+/*------------------------ Footer ----------------------------*/
+
+@media (min-width:320px){ /*-------- Mobile --------*/
+   
+	.footer{
+	   position: absolute;
+	   display: flex;
+	   flex-direction: row;
+	   justify-content: space-between;
+	   align-items: center;
+	   background-image: url(img/fondoimagen7.jpg);
+	   width: 100%;
+      height: 240px;
+      font-family: monospace; 
+      bottom: 0;
+   }
+
+   .map-container{
+	   display: flex;
+	   justify-content: space-around;
+	   align-items: center;
+	   flex-direction: column;
+	   order: 3;
+	   width: 250px;
+	   height: 100px;
+   }
+
+   .titulo-map{
+	   font-family: monospace;
+	   color: beige;
+      font-size: 20px;
+	   width: 100%;
+   }
+
+   .map{
+	   width: 230px;
+	   height: 160px;
+      margin-right: 70px;
+   }
+
+
+   .iconos-container{
+      width: 575px;
+      height: 120px;
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+   }
+
+   .info-contacto{
+	   display: flex;
+	   flex-direction: row;
+	   justify-content: space-between;
+      padding: 0 70px 0 70px;
+   }
+
+   .icono-contacto{
+	   font-size: 45px;
+	   color: #fff;
+      margin-top: 38px;
+   }
+
+   .footer-logo{
+      margin-bottom: 193px;
+	   width: 48px;
+	   border-radius: 10px;
+	   order: 1;
+   }
+
+   .container-contactos{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .contactos{
+      color: #fff;
+      font-size: 16px;
+   }
+}
+
+@media (min-width:1024px){ /*-------- Desktop --------*/
+
+   .titulo-map{
+	   font-size: 15px;
+	   margin-right: 80px;
+   }
+
+   .iconos-container{
+      width: 450px;
+      margin-right: 235px;
+      margin-left: 100px;
+   }
+
+   .icono-contacto{
+      font-size: 40px;
+   }
+
+   .map{
+      margin-right: 150px;
+      width: 300px;
+   }
+}
+
+/*-------------------- Diseño Home --------------------------*/
+
+@media (min-width:320px){ /*-------- Mobile --------*/
+	.titulo-home{
+      font-size: 65px;
+      letter-spacing: 5px;
+      font-family: 'cedarville cursive';
+      margin: 10px 0 0 50px;
+   }
+
+   .flex-container{
+	   display: flex;
+	   flex-direction: column;
+	   justify-content: space-between;
+	   align-items: center;
+	   height: 1100px;
+	   margin-top: 50px;
+	   width: 100%;
+   }
+
+   .titulo-destacados{
+	   background-color: #fff;
+	   border-radius: 10px;
+ 	   font-size: 30px;
+      text-align: center;
+ 	   letter-spacing: 5px;
+ 	   border-radius: 15px;
+ 	   padding: 15px 28px 15px 28px;
+   }
+
+   .grid-container{
+	   display: grid;
+	   grid-template-columns: repeat(3, 1fr);
+	   grid-template-rows: 350px;
+	   width: 80%;
+	   background-color: #fff;
+	   grid-gap: 15px;
+	   height: 350px;
+	   background-color: #fff;
+	   background-image: url(img/fondoimagen.jpg);
+	   border-radius: 10px;
+   }
+
+   .img-home{
+	   width: 100%;
+	   height: 350px;
+	   object-fit: cover;
+	   transition: 0.5s;
+	   border-radius: 10px;
+   }   
+
+   .container-destacados{
+	   display: flex;
+	   flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 170px;
+      width: 80%;
+      background-color: #f5f5dc;
+      background-image: url(img/fondoimagen2.jpg);
+   }
+
+   .img-home-destacados{
+	   width: 100%;
+	   height: 150px;
+	   object-fit: cover;
+   }
+
+   .titulo-bienvenida{
+      text-align: center;
+      font-size: 35px;
+	   letter-spacing: 10px;
+	   background-color: #fff;
+	   padding: 13px 25px 13px 25px;
+	   border-radius: 20px;
+   }
+
+   .img-home:hover{
+	   transform: scale(1.1);
+   }
+
+   .texto-bienvenida{
+	   padding: 8px;
+	   background-color: #fff;
+      align-items: center;
+      font-size: 1.12rem;
+      letter-spacing: 4px;
+      border-radius: 10px;
+      text-align: center;
+      width: 90%;
+   }
+
+   #texto{
+	   font-size: 19px;
+	   font-family: monospace;
+	   text-align: center;
+   }
+}
+
+@media (min-width:768px){ /*-------- Tablet --------*/
+   .titulo-home{
+      font-size: 62px;
+      letter-spacing: 6px;
+      font-family: 'cedarville cursive';
+      margin: 13px 0 0 60px;
+   }
+}
+
+@media (min-width:1024px){ /*-------- Desktop --------*/
+	.titulo-home{
+      font-size: 70px;
+      letter-spacing: 9px;
+      font-family: 'cedarville cursive';
+      margin: 10px 0 0 50px
+   }
+
+   .grid-container{
+	   grid-template-rows: 400px;
+	   height: 400px;
+   }
+
+   .img-home{
+	   height: 400px;
+   }   
+
+   .container-destacados{
+      height: 205px;
+      width: 79%;
+   }
+
+   .img-home-destacados{
+	   height: 180px;
+	   transition: 0.2s;
+   }
+
+   .img-home-destacados:hover{
+	   height: 190px;
+   }
+
+   .titulo-bienvenida{
+      font-size: 33px;
+   }
+
+   .img-home:hover{
+	   transform: scale(1.1);
+   }
+}
+
+/*-------------------- Diseño Contacto ------------------------*/
+
+@media (min-width:320px){ /*-------- Mobile --------*/
+	.titulo-contacto{
+      font-family: 'cedarville cursive', cursive;
+      letter-spacing: 4px;
+      font-size: 40px;
+      margin: 15px 0 0 30px;
+   }
+
+   .consulta{
+	   background-color: #fff;
+      padding: 15px 30px 15px 30px;
+	   text-align: center;
+      font-size: 30px;
+      letter-spacing: 4px;
+      border-radius: 10px;
+      opacity: .85;
+   }
+
+   .container-contacto{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+	   width: 100%;
+	   height: 900px;
+	   margin-top: 50px;
+   }
+
+   .box-consulta{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 750px;
+      border: none;
+   }
+
+   label{
+   	display: inline;
+	   font-family: cursive;
+	   color: #000;
+      margin-top: 70px;
+   }
+  
+   .input-contacto{
+	   font-family: cursive;
+	   text-align: center;
+	   width: 75%;
+	   height: 45px;
+	   border-radius: 10px;
+   }
+
+   textarea{
+	   font-family: cursive;
+      width: 480px;
+      height: 130px;
+      text-align: center;
+      margin-top: 70px;
+   }
+
+   .btn-form{
+      background-color: pink;
+      color: black;
+	   border: none;
+	   border-radius: 7px;
+      padding: 8px;
+	   transition: 0.3s;
+   }
+
+   .btn-form:hover{
+	   color: black;
+	   background-color: pink;
+	   transform: scale(1.1);
+	   border-radius: 11px;
+   }
+}
+
+@media (min-width:768px) { /*-------- Tablet --------*/
+   .titulo-contacto{
+      font-family: 'cedarville cursive', cursive;
+      letter-spacing: 9px;
+      font-size: 55px;
+      margin: 15px 0 0 70px;
+   }
+}
+
+@media (min-width:1024px) { /*-------- Desktop --------*/
+   .titulo-contacto{
+      font-family: 'cedarville cursive', cursive;
+      letter-spacing: 9px;
+      font-size: 64px;
+      margin: 15px 0 0 90px;
+   }
+
+   .box-consulta{
+      height: 600px;
+   }
+
+   .input-contacto{
+	   width: 60%;
+	   height: 40px;
+   }
+
+   textarea{
+      width: 500px;
+      margin-top: 0px;
+   }
+
+   label{
+	   margin-top: 0px;
+   }
+
+   .container-contacto{
+	   height: 750px;
+	   margin-top: 50px;
+   }
+}
+   
+/*------------------- Diseño Diseños -------------------------*/
+
+@media (min-width:320px){ /*-------- Mobile --------*/
+   .titulo-diseños{
+	   font-family: 'cedarville cursive', cursive;
+      letter-spacing: 5px;
+      font-size: 55px;
+      margin: 15px 0 0 50px;
+   }
+
+   .grid-container-diseños{
+	   display: grid;
+	   width: 95%;
+	   margin: 50px auto;
+	   grid-template-columns: repeat(1, 1fr);
+	   grid-auto-rows: 300px;
+	   grid-row-gap: 80px;
+   }
+
+   .img-diseños{
+	   width: 39%;
+	   height: 270px;
+	   object-fit: cover;
+	   margin-left: 10px;
+	   border-radius: 5px;
+   }
+
+   .grid-item-diseños{
+	   display: flex;
+	   flex-direction: row;
+	   align-items: center;
+	   background-image: url(img/fondoimagen.jpg);
+	   width: 700px;
+	   margin: 0 auto;
+	   background-size: cover;
+   }
+
+   .desc-diseños{
+      font-family: 'Vibur', cursive;
+      color: #b73877;
+	   font-size: 25px;
+      margin: auto;
+      width: 45%;
+      text-align: center;
+   }
+}
+
+@media (min-width:1024px){ /*-------- Desktop --------*/
+	.titulo-diseños{
+	   font-family: 'cedarville cursive', cursive;
+       letter-spacing: 9px;
+       font-size:75px;
+       margin: 15px 0 0 90px;
+   }
+
+   .grid-container-diseños{
+	   margin: 50px auto;
+	   grid-template-columns: repeat(2, 1fr);
+	   grid-auto-rows: 200px;
+	   grid-row-gap: 85px;
+   }
+
+   .img-diseños{
+	   width: 40%;
+	   height: 180px;
+   }
+
+   .grid-item-diseños{
+	   width: 430px;
+   }
+
+   .desc-diseños{
+	   font-size: 17px;
+      margin: auto;
+      width: 50%;
+   }
+}
+
+/*-------------------- Diseño Precios ------------------------*/              
+
+@media (min-width:320px){ /*-------- Mobile --------*/
+   .titulo-precios{
+	   font-family: 'cedarville cursive', cursive;
+       letter-spacing: 9px;
+       font-size: 60px;
+       margin: 15px 0 0 30px;
+   }
+
+   .container-tablasPrecios{
+	   height: 1100px;
+	   display: flex;
+	   flex-direction: column;
+	   justify-content: space-between;
+	   align-items: center;
+   }
+
+   .titulo-lista{
+	   color: black;
+	   font-family: monospace;
+	   font-size: 25px;
+	   background-color: #fff;
+	   padding: 13px 30px 13px 30px;
+	   border-radius: 8px;
+	   margin-top: 50px;
+      text-align: center;
+   }
+
+   .titulo-decoExtra{
+	   color: #000;
+	   font-family: monospace;
+	   font-size: 25px;
+	   background-color: #fff;
+      padding: 13px 30px 13px 30px;
+	   border-radius: 6px;
+	   margin-top: 50px;
+      text-align: center;
+   }
+
+   .tabla-precios1{
+	   background-color: #fff;
+	   text-align: center;
+      font-family: monospace;
+      height: 250px;
+      width: 350px;
+      font-size: 18px;
+      border-radius: 10px;
+      padding: 5px;
+   }
+
+   .tabla-precios2{
+	   background-color: #fff;
+	   text-align: center;
+      font-family: monospace;
+      height: 250px;
+      width: 350px;
+      font-size: 18px;
+      border-radius: 10px;
+      padding: 5px;
+   }
+
+   .tabla-precios3{
+	   background-color: #fff;
+	   text-align: center;
+      font-family: monospace;
+      height: 250px;
+      width: 400px;
+      font-size: 15px;
+      border-radius: 10px;
+      padding: 5px;
+   }
+
+   #color-precios{
+      background-color: #f6d1de;
+   }
+}
+
+@media (min-width:1024px){ /*-------- Desktop --------*/
+   .titulo-precios{
+	   font-family: 'cedarville cursive', cursive;
+      letter-spacing: 9px;
+      font-size: 75px;
+      margin: 15px 0 0 90px;
+   }
+
+   .titulo-lista{
+	   font-size: 20px;
+	   margin-top: 50px;
+	   padding: 10px 30px 10px 30px;
+   }
+
+   .titulo-decoExtra{
+	   font-size: 21px;
+	   padding: 10px 30px 10px 30px;
+	   margin-top: 50px;
+   }
+
+   .tabla-precios1{
+      width: 400px;
+      font-size: 16px;
+   }
+
+   .tabla-precios2{
+      height: 250px;
+      width: 400px;
+      font-size: 17px;
+   }
+
+   .tabla-precios3{
+      height: 250px;
+      width: 450px;
+      font-size: 16px;
+   }
+}
+   
+/*-------------------- Diseño Turnos ------------------------*/
+
+@media (min-width:320px){ /*-------- Mobile --------*/
+   .titulo-Turnos{
+	   font-family: 'cedarville cursive', cursive;
+      letter-spacing: 5px;
+      font-size: 60px;
+      margin: 15px 0 0 40px;
+   }
+
+   .container-tablasTurnos{
+	   display: flex;
+	   flex-direction: column;
+	   text-align: center;
+	   align-items: center;
+	   justify-content: space-between;
+	   height: 750px;
+	   margin-top: 80px;
+   }
+
+   .titulo-duracionServicio{
+   	margin-top: 120px;
+      background-color: #fff;
+      padding: 15px 30px 15px 30px;
+	   text-align: center;
+      font-size: 30px;
+      letter-spacing: 4px;
+      border-radius: 10px;
+      opacity: .85;
+   }
+
+   .tabla-duracionServicio{
+	   font-family: cursive;
+	   border-collapse: collapse;
+	   font-size: 18px;
+	   width: 750px;
+	   height: 190px;
+   }
+
+   #th1{
+	   background-color: #f3a8c2;
+   }
+
+   #th2{
+	   background-color: #f6d1de;
+
+   }
+   #td1{
+	   background-color: #fff;
+   }      
+
+   .titulo-disponibilidad{
+	   background-color: #fff;
+      padding: 15px 30px 15px 30px;
+	   text-align: center;
+      font-size: 30px;
+      letter-spacing: 5px;
+      border-radius: 10px;
+      opacity: .85;
+   }
+
+   .tabla-disponibilidad{
+	   background-color: #fff;
+	   font-family: cursive;
+	   border-collapse: collapse;
+	   font-size: 18px;
+	   width: 700px;
+	   height: 150px;
+   }
+}
+
+@media (min-width:1024px){ /*-------- Desktop --------*/
+	.titulo-Turnos{
+	   font-family: 'cedarville cursive', cursive;
+      letter-spacing: 9px;
+      font-size: 75px;
+      margin: 15px 0 0 90px;
+   }
+
+   .container-tablasTurnos{
+	   height: 600px;
+	   margin-top: 20px;
+   }
+
+   .titulo-duracionServicio{
+   	margin-top: 0px;
+      padding: 10px 20px 10px 20px;
+      font-size: 22px;
+   }
+
+   .tabla-duracionServicio{
+	   font-family: cursive;
+	   border-collapse: collapse;
+	   font-size: 14px;
+	   width: 650px;
+	   height: 170px;
+   }
+
+   .titulo-disponibilidad{
+      padding: 10px 20px 10px 20px;
+      font-size: 22px;
+   }
+
+   .tabla-disponibilidad{
+	   font-size: 14px;
+	   width: 650px;
+	   height: 115px;
+   }
+}
+
